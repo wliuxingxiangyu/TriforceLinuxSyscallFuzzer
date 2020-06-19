@@ -12,7 +12,7 @@ fuzzing of Linux x86_64 kernels using AFL and QEMU.  To use
 it you will need TriforceAFL from https://github.com/nccgroup/TriforceAFL
 and a kernel image to fuzz.  Scripts assume that TriforceAFL is
 found in `$TAFL` or `../TriforceAFL/` (N.B. building `testAfl` requires
-that `../TriforceAFL/config.h` exist).
+that `../TriforceAFL/config.h` exist).hz要先编译 https://github.com/nccgroup/TriforceAFL .在ws/other/TriforceAFL目录下，已经下载好了
 
 ## Building
 To build:
